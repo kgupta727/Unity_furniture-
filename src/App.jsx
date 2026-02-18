@@ -1,7 +1,7 @@
 import { useEffect, useState } from 'react'
 
 const products = [
-  { name: 'Mono Chair', price: '₹18,500', type: 'Seating', desc: 'Minimal dining chair with steel frame' },
+  { name: 'Unity Chair', price: '₹18,500', type: 'Seating', desc: 'Minimal dining chair with steel frame' },
   { name: 'Grid Table', price: '₹45,000', type: 'Table', desc: 'Geometric coffee table in matte black' },
   { name: 'Line Lamp', price: '₹11,800', type: 'Lighting', desc: 'Adjustable LED floor lamp' },
   { name: 'Block Sofa', price: '₹82,000', type: 'Lounge', desc: 'Modular 3-seater with clean lines' },
@@ -21,9 +21,9 @@ export default function App() {
   return (
     <main className="page">
       <header className="topbar">
-        <h1>MONO FURNITURE</h1>
+        <h1>UNITY FURNITURE</h1>
         <div className="topbar-actions">
-          <a href="https://shop.monofurniture.com" target="_blank" rel="noopener noreferrer" className="shop-link">
+          <a href="https://shop.unityfurniture.com" target="_blank" rel="noopener noreferrer" className="shop-link">
             Full Store →
           </a>
           <button onClick={() => setDarkMode((prev) => !prev)} className="mode-btn" aria-label="Toggle theme">
@@ -35,13 +35,13 @@ export default function App() {
       <section className="hero">
         <h2 className="hero-title">Essential furniture for modern living</h2>
         <p className="hero-subtitle">Every piece designed with purpose. No excess, only function and form in perfect balance.</p>
-        <a href="https://shop.monofurniture.com" target="_blank" rel="noopener noreferrer" className="cta-btn">
+        <a href="https://shop.unityfurniture.com" target="_blank" rel="noopener noreferrer" className="cta-btn">
           Explore Full Collection
         </a>
       </section>
 
       <section className="about-section">
-        <h2 className="section-title">About Mono</h2>
+        <h2 className="section-title">About Unity</h2>
         <div className="about-content">
           <p>We design furniture that respects both space and time. Every piece is created with precision engineering, sustainable materials, and an unwavering commitment to simplicity.</p>
           <p>Based in Delhi since 2019, we collaborate with independent craftspeople to produce limited collections that challenge disposable design culture.</p>
@@ -65,14 +65,14 @@ export default function App() {
           ))}
         </div>
         <div className="view-all">
-          <a href="https://shop.monofurniture.com/products" target="_blank" rel="noopener noreferrer" className="outline-btn">
+          <a href="https://shop.unityfurniture.com/products" target="_blank" rel="noopener noreferrer" className="outline-btn">
             View All Products
           </a>
         </div>
       </section>
 
       <section className="features-showcase">
-        <h2 className="section-title">Experience Mono</h2>
+        <h2 className="section-title">Experience Unity</h2>
         <div className="features-grid-large">
           <div className="feature-card">
             <div className="feature-icon">📍</div>
@@ -142,8 +142,8 @@ export default function App() {
 
       <footer className="footer">
         <div className="footer-content">
-          <p>&copy; 2026 Mono Furniture. New Delhi, India.</p>
-          <p className="footer-note">This is a showcase site. Visit our <a href="https://shop.monofurniture.com" target="_blank" rel="noopener noreferrer">main store</a> for full catalog.</p>
+          <p>&copy; 2026 Unity Furniture. New Delhi, India.</p>
+          <p className="footer-note">This is a showcase site. Visit our <a href="https://shop.unityfurniture.com" target="_blank" rel="noopener noreferrer">main store</a> for full catalog.</p>
         </div>
       </footer>
     </main>
